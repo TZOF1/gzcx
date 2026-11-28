@@ -21,7 +21,6 @@ uint8_t Key_GetNum(void)
 		{
 			while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0){}
 			delay_ms(20);
-			delay_ms(20);
 			uint16_t t=0;
 			while(t<500)
 			{
